@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 import { headerBgMobile, headerBgTablet, headerBgDesktop } from "../index";
 function Header() {
   return (
-    <header className="header relative bg-[#111111]">
+    <header className="header relative bg-[#111111] z-[-2222px]">
       <div className="header-img z-0 w-full">
         <img
           src={headerBgMobile}

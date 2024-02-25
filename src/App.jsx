@@ -3,10 +3,10 @@ import Main from "./sections/Main";
 
 function App() {
   return (
-      <>
+      <div className="relative">
         <Header />
         <Main />
-      </>
+      </div>
     
   )
 }

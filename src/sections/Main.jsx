@@ -8,12 +8,12 @@ import patternImg from "../assets/patterns/pattern-divide.svg";
 
 function Main() {
   return (
-    <main>
-      <div className="our-restaurant">
+    <main className="text-center absolute top-[670px] z-50">
+      <div className="our-restaurant ">
         <img
           src={enjoyablePlaceMobile}
           alt="green forest"
-          className="block md:hidden"
+          className="block md:hidden mx-auto top-[70px]"
         />
         <img
           src={enjoyablePlaceTablet}
@@ -25,8 +25,8 @@ function Main() {
           alt="green forest"
           className="hidden lg:block"
         />
-        <div>
-          <img src={patternImg} alt="pattern img" />
+        <div className="relative">
+          <img src={patternImg} alt="pattern img" className="mx-auto" />
           <h2>Enjoyable place for all the family</h2>
           <p>
             Our relaxed surroundings make dining with us a great experience for
@@ -34,10 +34,14 @@ function Main() {
           </p>
         </div>
       </div>
-      <div className="our-restaurant">
-        <img src={locallySourcedMobile} alt="a man is cooking" />
+      <div className="our-restaurant mx-auto">
+        <img
+          src={locallySourcedMobile}
+          alt="a man is cooking"
+          className="mx-auto"
+        />
         <div>
-          <img src={patternImg} alt="pattern img" />
+          <img src={patternImg} alt="pattern img" className="mx-auto" />
           <h2>The most locally sourced food</h2>
           <p>
             All our ingredients come directly from our farm or local fishery. So
