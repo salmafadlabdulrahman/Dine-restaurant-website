@@ -15,7 +15,7 @@ import linePatterns from "../assets/patterns/pattern-lines.svg";
 
 function Main() {
   return (
-    <main className="text-center absolute top-[670px] z-50 md:top-[900px]">
+    <main className="text-center absolute top-[670px] z-50 md:top-[900px] w-full">
       <div className="our-restaurant">
         <img
           src={enjoyablePlaceMobile}
@@ -49,7 +49,7 @@ function Main() {
         </div>
       </div>
 
-      <div className="our-restaurant mx-auto mt-10 relative">
+      <div className="our-restaurant mx-auto mt-10 relative w-[100%] ">
         <img
           src={locallySourcedMobile}
           alt="a man is cooking"
@@ -67,11 +67,11 @@ function Main() {
         />
         <img
           src={linePatterns}
-          className="hidden md:block absolute  top-[230px] left-[50%] transform translate-x-[115%]"
+          className="hidden md:block absolute top-[230px] left-[50%] transform translate-x-[115%]"
         />
         <img
           src={topLeftPattern}
-          className="hidden md:block z-[-222px] absolute h-[310px] top-[400px] left-[55%] w-[100%]"
+          className="hidden md:block absolute h-[310px] top-[400px] left-[50%] w-[50%] z-[-2222]"
         />
         <div>
           <img src={patternImg} alt="pattern img" className="mx-auto mt-12" />
