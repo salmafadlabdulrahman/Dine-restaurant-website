@@ -15,8 +15,8 @@ import linePatterns from "../assets/patterns/pattern-lines.svg";
 
 function Main() {
   return (
-    <main className="text-center absolute top-[670px] z-50 md:top-[900px] w-full">
-      <div className="our-restaurant">
+    <main className="text-center absolute top-[670px] z-50 md:top-[900px] w-full xl:top-[780px]">
+      <div className="our-restaurant xl:flex xl:w-[80%] xl:mx-auto xl:gap-[6em] xl:items-center">
         <img
           src={enjoyablePlaceMobile}
           alt="green forest"
@@ -36,13 +36,17 @@ function Main() {
           src={topRightPattern}
           className="hidden md:block z-[-222px] absolute h-[310px] top-[200px] right-[50%] w-[50%]"
         />
-        <div className="relative py-9">
-          <img src={patternImg} alt="pattern img" className="mx-auto mt-4" />
+        <div className="relative py-9 xl:text-left">
+          <img
+            src={patternImg}
+            alt="pattern img"
+            className="mx-auto mt-4 xl:m-0"
+          />
           <h2 className="text-[#242B37] font-bold text-[2em] pt-8 py-3 leading-10 tracking-tight md:text-[3em] md:leading-[1em]">
             Enjoyable place <br />
             for all the family
           </h2>
-          <p className="text-[#242B37] pt-5 w-[80%] mx-auto md:text-[1.3em] md:w-[60%]">
+          <p className="text-[#242B37] pt-5 w-[80%] mx-auto md:text-[1.3em] md:w-[60%] xl:m-0 xl:w-[80%]">
             Our relaxed surroundings make dining with us a great experience for
             everyone. We can even arrange a tour of the farm before your meal.
           </p>
