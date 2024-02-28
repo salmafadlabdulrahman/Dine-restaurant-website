@@ -16,7 +16,7 @@ import linePatterns from "../assets/patterns/pattern-lines.svg";
 function Main() {
   return (
     <main className="text-center absolute top-[670px] z-50 md:top-[900px] w-full xl:top-[90%]">
-      <div className="our-restaurant xl:flex xl:w-[1000px] xl:mx-auto xl:gap-[6em] xl:items-center 2xl:w-[80%]">
+      <div className="our-restaurant xl:flex xl:w-[1000px] xl:mx-auto xl:gap-[10em] xl:items-center 2xl:w-[80%]">
         <img
           src={enjoyablePlaceMobile}
           alt="green forest"
@@ -53,7 +53,12 @@ function Main() {
         </div>
       </div>
 
-      <div className="xl:w-[100%] xl:mx-auto">
+      <div className="xl:w-[100%] xl:mx-auto relative">
+        <img
+          width={"60%"}
+          src={topLeftPattern}
+          className="hidden md:block absolute h-[310px] bottom-0 z-[-2222] right-0"
+        />
         <div className="our-restaurant mx-auto mt-10 relative w-[100%] xl:flex xl:items-center xl:w-[1000px] 2xl:w-[80%] xl:mt-[7em]">
           <img
             src={locallySourcedMobile}
@@ -74,10 +79,7 @@ function Main() {
             src={linePatterns}
             className="hidden md:block absolute top-[230px] left-[50%] transform translate-x-[115%] xl:top-[300px] xl:translate-x-[290%] 2xl:translate-x-[350%]"
           />
-          <img
-            src={topLeftPattern}
-            className="hidden md:block absolute h-[310px] top-[400px] left-[50%] w-[50%] z-[-2222] "
-          />
+
           <div className="xl:text-left">
             <img
               src={patternImg}
@@ -88,7 +90,7 @@ function Main() {
               The most locally <br />
               sourced food
             </h2>
-            <p className="text-[#242B37] pt-5 w-[80%] mx-auto md:text-[1.2em] md:w-[60%] xl:m-0 xl:text-[1.4em]">
+            <p className="text-[#242B37] pt-5 w-[80%] mx-auto md:text-[1.2em] md:w-[60%] xl:m-0 xl:text-[1.4em] lg:w-[50%]">
               All our ingredients come directly from our farm or local fishery.
               So you can be sure that you’re eating the freshest, most
               sustainable food.
