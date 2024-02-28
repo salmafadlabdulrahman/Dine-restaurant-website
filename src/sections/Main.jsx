@@ -12,6 +12,7 @@ import patternImg from "../assets/patterns/pattern-divide.svg";
 import topRightPattern from "../assets/patterns/pattern-curve-top-right.svg";
 import topLeftPattern from "../assets/patterns/pattern-curve-top-left.svg";
 import linePatterns from "../assets/patterns/pattern-lines.svg";
+import MenuHighlights from "./MenuHighlights";
 
 function Main() {
   return (
@@ -90,13 +91,17 @@ function Main() {
               The most locally <br />
               sourced food
             </h2>
-            <p className="text-[#242B37] pt-5 w-[80%] mx-auto md:text-[1.2em] md:w-[60%] xl:m-0 xl:text-[1.4em] lg:w-[50%]">
+            <p className="text-[#242B37] pt-5 pb-[5em] w-[80%] mx-auto md:text-[1.2em] md:w-[60%] xl:m-0 xl:text-[1.4em] lg:w-[50%]">
               All our ingredients come directly from our farm or local fishery.
               So you can be sure that you’re eating the freshest, most
               sustainable food.
             </p>
           </div>
         </div>
+      </div>
+
+      <div>
+        <MenuHighlights />
       </div>
     </main>
   );

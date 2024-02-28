@@ -3,12 +3,11 @@ import Main from "./sections/Main";
 
 function App() {
   return (
-      <div className="relative">
-        <Header />
-        <Main />
-      </div>
-    
-  )
+    <div className="relative">
+      <Header />
+      <Main />
+    </div>
+  );
 }
 
-export default App
+export default App;
