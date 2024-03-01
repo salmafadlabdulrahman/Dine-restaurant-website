@@ -10,13 +10,22 @@ import locallySourcedMobile from "./assets/homepage/locally-sourced-mobile.jpg";
 import locallySourcedTablet from "./assets/homepage/locally-sourced-tablet.jpg";
 import locallySourcedDesktop from "./assets/homepage/locally-sourced-desktop.jpg";
 
+import salmonMobileImg from "./assets/homepage/salmon-mobile.jpg";
+import salmonTabletImg from "./assets/homepage/salmon-desktop-tablet.jpg";
+
+/*import salmonMobileImg from "./assets/homepage/salmon-mobile.jpg";
+import salmonTabletImg from "./assets/homepage/salmon-desktop-tablet.jpg";
+
+/*import salmonMobileImg from "./assets/homepage/salmon-mobile.jpg";
+import salmonTabletImg from "./assets/homepage/salmon-desktop-tablet.jpg";*/
+
 const menu = [
   {
     name: "Seared Salmon Fillet",
     description:
       "Our locally sourced salmon served with a refreshing buckwheat summer salad.",
-    mobileImg: "/src/assets/homepage/salmon-mobile.jpg",
-    desktopImg: "/src/assets/homepage/salmon-desktop-tablet.jpg",
+    mobileImg: salmonMobileImg,
+    desktopImg: salmonTabletImg,
   },
   {
     name: "Rosemary Filet Mignon",
