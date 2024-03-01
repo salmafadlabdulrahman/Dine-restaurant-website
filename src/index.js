@@ -13,11 +13,11 @@ import locallySourcedDesktop from "./assets/homepage/locally-sourced-desktop.jpg
 import salmonMobileImg from "./assets/homepage/salmon-mobile.jpg";
 import salmonTabletImg from "./assets/homepage/salmon-desktop-tablet.jpg";
 
-/*import salmonMobileImg from "./assets/homepage/salmon-mobile.jpg";
-import salmonTabletImg from "./assets/homepage/salmon-desktop-tablet.jpg";
+import beefMobileImg from "./assets/homepage/beef-mobile.jpg";
+import beefTabletImg from "./assets/homepage/beef-desktop-tablet.jpg";
 
-/*import salmonMobileImg from "./assets/homepage/salmon-mobile.jpg";
-import salmonTabletImg from "./assets/homepage/salmon-desktop-tablet.jpg";*/
+import chocolateMobileImg from "./assets/homepage/chocolate-mobile.jpg";
+import chocolateTabletImg from "./assets/homepage/chocolate-desktop-tablet.jpg";
 
 const menu = [
   {
@@ -31,15 +31,15 @@ const menu = [
     name: "Rosemary Filet Mignon",
     description:
       "Our prime beef served to your taste with a delicious choice of seasonal sides.",
-    mobileImg: "/src/assets/homepage/beef-mobile.jpg",
-    desktopImg: "/src/assets/homepage/beef-desktop-tablet.jpg",
+    mobileImg: beefMobileImg,
+    desktopImg: beefTabletImg,
   },
   {
     name: "Summer Fruit Chocolate Mousse",
     description:
       "Creamy mousse combined with summer fruits and dark chocolate shavings.",
-    mobileImg: "/src/assets/homepage/chocolate-mobile.jpg",
-    desktopImg: "/src/assets/homepage/chocolate-desktop-tablet.jpg",
+    mobileImg: chocolateMobileImg,
+    desktopImg: chocolateTabletImg,
   },
 ]
 
