@@ -13,11 +13,12 @@ import topRightPattern from "../assets/patterns/pattern-curve-top-right.svg";
 import topLeftPattern from "../assets/patterns/pattern-curve-top-left.svg";
 import linePatterns from "../assets/patterns/pattern-lines.svg";
 import MenuHighlights from "./MenuHighlights";
+import FamilyGathering from "./FamilyGathering";
 
 function Main() {
   return (
     <main className="text-center absolute top-[670px] z-50 md:top-[900px] w-full xl:top-[90%]">
-      <div className="our-restaurant xl:flex xl:w-[1000px] xl:mx-auto xl:gap-[10em] xl:items-center 2xl:w-[80%]">
+      <div className="our-restaurant xl:flex xl:w-[1200px] xl:mx-auto xl:gap-[10em] xl:items-center 2xl:w-[80%]">
         <img
           src={enjoyablePlaceMobile}
           alt="green forest"
@@ -37,7 +38,7 @@ function Main() {
           src={topRightPattern}
           className="hidden md:block z-[-222px] absolute h-[310px] top-[200px] right-[50%] w-[50%]"
         />
-        <div className="relative py-9 xl:text-left">
+        <div className="relative py-9 xl:text-left xl:w-[60%]">
           <img
             src={patternImg}
             alt="pattern img"
@@ -100,8 +101,10 @@ function Main() {
         </div>
       </div>
 
+      
       <div>
         <MenuHighlights />
+        <FamilyGathering />
       </div>
     </main>
   );
