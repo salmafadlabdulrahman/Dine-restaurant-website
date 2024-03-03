@@ -93,4 +93,5 @@ export {
   locallySourcedTablet,
   locallySourcedDesktop,
   menu,
+  events
 };
